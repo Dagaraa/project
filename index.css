@@ -1,0 +1,41 @@
+html {
+  font-size: 22px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+    background-color: darkslategray;
+    color: white;
+  }
+  body {
+    background-color: rgb(214, 56, 8);
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: gray;
+}
+th, td {
+    border: 2px solid orange;
+  }
+  span{
+    font-weight: bold;
+    font-size: medium;
+    color:gray;
+    font-family: monospace;
+  }
+  h2 {
+    color: gray;
+  }
