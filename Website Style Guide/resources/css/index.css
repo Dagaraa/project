@@ -1,0 +1,86 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    font-family: 'manrope', sans-serif;
+    margin: 0 10%;
+}
+.candy-apple-red {
+    background-color: #ff0800;
+    color: white;
+}
+.blue-town-funk {
+    background-color: #0e57e8;
+    color: white;
+}
+.swamp-green {
+    background-color: #047522;
+    color: white;
+}
+.barney {
+    background-color: #750471;
+    color: white;
+}
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+.manrope {
+    font-family: "manrope" , monospace;
+}
+.Oswald {
+    font-family: "Oswald" , monospace;
+}
+.Anybody {
+    font-family: "Anybody" , monospace;
+}
+
+.regular {
+    font-style: normal;
+}
+.bold {
+    font-style: bold;
+}
+.italic {
+    font-style: italic;
+}
+div {
+    display: block;
+}
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Anybody', sans-serif;
+}
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'manrope', sans-serif;
+}

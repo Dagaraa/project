@@ -1,0 +1,269 @@
+/*----------- Global Selectors ------------*/
+
+html {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+}
+
+main {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+/*----------- Header Selectors ------------*/
+
+h1, h2 {
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 10rem;
+}
+
+.title h1, .title h2 {
+	margin: 0;
+	color: white;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.title {
+	background-image: url('https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+	padding: 18rem;
+	margin: 0;
+}
+
+.navbar {
+	margin: 0 auto;
+}
+
+.navbar ul {
+	display: inline-flex;
+	background: grey;
+	justify-content: right;
+	margin: 0px auto;
+	width: 100%;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin: 1rem .4rem;
+	padding: 1rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	transition: .8s;
+	padding: 1.3rem;
+	border: 1px solid white;
+	border-radius: 10%;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+}
+
+a:hover {
+	background: white;
+	color: black;
+}
+
+/*----------- Main Area Selectors ------------*/
+
+main {
+	margin: 1.5rem auto;
+	width: 80%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#common-questions {
+	font-size: 3rem;
+	margin-top: 0rem;
+  padding-top: 1.5rem;
+}
+
+.online, .why {
+	font-size: 1.4rem;
+}
+
+.online, .why, img {
+	text-align: center;
+	width: 50%;
+	margin: 1rem auto;
+}
+
+.main-content img {
+	border-radius: 10%;
+	width: 100%;
+	margin: 1rem auto;
+}
+
+.join-text {
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+	margin: 1rem auto;
+	padding: 5rem;
+}
+
+a.start {
+	padding: 3rem;
+	border: 1px solid white;
+	border-radius: 5%;
+	transition: .6s;
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+a.start:hover {
+	background: white;
+	color: black;
+}
+
+/*----------- Media Queries ------------*/
+
+@media only screen and (max-width: 1200px) {
+	.title h1 {
+		font-size: 7rem;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.title h1 {
+		font-size: 6rem;
+	}
+	.navbar ul {
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.title h1 {
+		font-size: 4rem;
+		text-align: center;
+		float: left;
+    padding-bottom: 1rem;
+	}
+	
+	.title {
+		padding: 9rem;
+	}
+	
+	.title h2 {
+		float: clear;
+	}
+
+	a {
+		padding: 1rem 8rem;
+		font-size: 1rem;
+		border: none;
+		border-radius: 3%;
+		display: inline-block;
+	}
+
+	.navbar ul {
+		text-align: center;
+		margin: auto;
+		display: inline-block;
+	}
+
+    li {
+		margin: 0.4rem 0rem;
+		padding: .3rem;
+	}
+}
+
+
+@media only screen and (max-width: 500px) {
+	.title h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		float: left;
+	}
+	
+	.button {
+		margin: 0;
+		padding: 2rem;
+	}
+	
+	.join-text {
+		font-size: 1.3rem;
+	}
+	
+	.title {
+		padding: 6rem;
+		background-image: none;
+	}
+	
+	.title h2 {
+		float: clear;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.title h1 {
+		font-size: 2.8rem;
+		text-align: center;
+		float: left;
+		padding-bottom: 1rem;
+	}
+	
+	.title {
+		padding: 4rem;
+		background-image: none;
+	}
+	
+	.title h2 {
+		float: clear;
+		font-size: 1rem;
+	}
+
+	.online, .why {
+		font-size: .9rem
+	}
+
+	#common-questions {
+		padding-top: 2rem;
+		font-size: 1.6rem;
+	}
+	
+	a.start {
+		padding: 1.6rem;
+		font-size: 1rem;
+	}
+	
+	a {
+		padding: 1rem 6rem;
+		font-size: 1rem;
+		border: none;
+		border-radius: 3%;
+		display: inline-block;
+	}
+
+	.navbar ul {
+		text-align: center;
+		margin: auto;
+		display: inline-block;
+	}
+
+	.button {
+		margin: 0;
+		padding: 2rem;
+	}
+	
+	.join-text {
+		font-size: 1.1rem;
+	}
+	
+    li {
+		margin: 0.4rem 0rem;
+		padding: .3rem;
+	}
+}
